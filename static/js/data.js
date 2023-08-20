@@ -6,5 +6,5 @@ const routes = [
 ]
 
 const friends = [
-  {name: 'Here200\'s Bookmark', url: 'https://here200.github.io/Bookmark/'},
+  {name: 'Here200\'s Bookmark', url: 'https://cutexiaoguigui.eu.org/video.html'},
 ]
