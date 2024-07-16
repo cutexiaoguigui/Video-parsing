@@ -112,16 +112,21 @@
       // 获取 iframe 元素
       const iframe = document.querySelector('iframe.player');
 
-      // 获取 iframe 的内容窗口
-      const iframeWindow = iframe.contentWindow;
+      // 设置定时器，每隔一秒检查一次
+      const checkInterval = 1000; // 1秒
+      setInterval(function() {
+        // 获取 iframe 的内容窗口
+        const iframeWindow = iframe.contentWindow;
 
-      // 查找要删除的元素
-      const adElementInIframe = iframeWindow.document.getElementById('adv_wrap_hh');
-      if (adElementInIframe) {
-        adElementInIframe.parentNode.removeChild(adElementInIframe);
-      } else {
-        console.log("delete error");
-      }
+        // 查找并删除元素
+        const adElementInIframe = iframeWindow.document.getElementById('adv_wrap_hh');
+        if (adElementInIframe) {
+          adElementInIframe.parentNode.removeChild(adElementInIframe);
+          console.log("delete");
+        } else {
+          console.log("error");
+        }
+      }, checkInterval);
     });
   </script>
   
