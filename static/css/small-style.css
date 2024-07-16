@@ -18,7 +18,7 @@ body {
   position: relative;
   width: 150px;
 
-  background-color: #ddd;
+  background-color: #00ffff;
 }
 
 .nav .route .title {
@@ -37,7 +37,7 @@ body {
   top: 74px;
 
   text-align: center;
-  background-color: #0d0;
+  background-color: #00ffff;
 }
 
 .route .list li {
