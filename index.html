@@ -109,12 +109,19 @@
   <script src="./static/js/main.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
+      var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
       var adElement = document.getElementById("adv_wrap_hh");
       if (adElement) {
-          adElement.parentNode.removeChild(adElement);
+      adElement.parentNode.removeChild(adElement);
+      observer.disconnect();
       }
+      });
+      });
+      ﻿
+      observer.observe(document.body, { childList: true, subtree: true });
     });
-  </script>
+</script>
   
 </body>
 </html>
