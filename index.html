@@ -109,19 +109,21 @@
   <script src="./static/js/main.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      var observer = new MutationObserver(function(mutations) {
-      mutations.forEach(function(mutation) {
-      var adElement = document.getElementById("adv_wrap_hh");
-      if (adElement) {
-      adElement.parentNode.removeChild(adElement);
-      observer.disconnect();
+      // 获取 iframe 元素
+      const iframe = document.querySelector('iframe.player');
+
+      // 获取 iframe 的内容窗口
+      const iframeWindow = iframe.contentWindow;
+
+      // 查找要删除的元素
+      const adElementInIframe = iframeWindow.document.getElementById('adv_wrap_hh');
+      if (adElementInIframe) {
+        adElementInIframe.parentNode.removeChild(adElementInIframe);
+      } else {
+        console.log("delete error");
       }
-      });
-      });
-      ﻿
-      observer.observe(document.body, { childList: true, subtree: true });
     });
-</script>
+  </script>
   
 </body>
 </html>
