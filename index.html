@@ -107,6 +107,14 @@
 
   <script src="./static/js/data.js"></script>
   <script src="./static/js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var adElement = document.getElementById("adv_wrap_hh");
+      if (adElement) {
+          adElement.parentNode.removeChild(adElement);
+      }
+    });
+  </script>
   
 </body>
 </html>
