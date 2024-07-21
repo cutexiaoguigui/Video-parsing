@@ -1,7 +1,10 @@
 body {
   font-size: 25px;
-  display: flex;
-  flex-direction: row; /* 设置主轴方向为横向 */
+  transform: rotate(90deg); /* 将页面旋转90度 */
+  transform-origin: top left; /* 设置旋转的基点 */
+  width: 100vh; /* 设置宽度为视口高度 */
+  height: 100vw; /* 设置高度为视口宽度 */
+  overflow: hidden; /* 隐藏溢出的内容 */
 }
 
 /* 导航条 */
