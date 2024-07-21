@@ -1,5 +1,7 @@
 body {
   font-size: 25px;
+  display: flex;
+  flex-direction: row; /* 设置主轴方向为横向 */
 }
 
 /* 导航条 */
