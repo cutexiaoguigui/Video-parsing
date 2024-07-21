@@ -5,8 +5,8 @@ body {
 .nav {
   display: flex;
   justify-content: center;
-  height: 20vw;
-  margin-top: 50px;
+  height: 15vw;
+  margin-top: 10px;
   width: 80vh;
 }
 
@@ -77,8 +77,8 @@ body {
 /* 播放器 */
 .player {
   display: block;
-  width: 80vh;
-  height: 80vw;
+  width: 80vw;
+  height: 80vh;
   margin: 30px auto;
 
   background-color: #ddd;
