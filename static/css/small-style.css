@@ -1,24 +1,23 @@
+/* Rotate the entire page 90 degrees (just for fun?) */
 body {
   transform: rotate(90deg);
 }
-/* 导航条 */
+
+/* Navigation Bar */
 .nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 15vw;
   margin-top: 10px;
   width: 80vh;
+  background-color: #00ffff;
 }
 
-/* 导航条-播放列表 */
+/* Playlist Route */
 .nav .route {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   width: 130px;
-
-  background-color: #00ffff;
 }
 
 .nav .route .title {
@@ -35,14 +34,12 @@ body {
   left: 0;
   right: 0;
   top: 36px;
-
   text-align: center;
   background-color: #00ffff;
 }
 
 .route .list li {
   height: 25px;
-
   line-height: 25px;
   font-size: 15px;
   cursor: pointer;
@@ -52,19 +49,17 @@ body {
   background-color: #ff0;
 }
 
-/* 导航条-输入框 */
+/* Search Input */
 .nav .search {
   width: 666px;
   margin: 0 5px;
-
   outline: none;
   font-size: 16px;
 }
 
-/* 导航条-按钮 */
+/* Buttons */
 .nav button {
   width: 50px;
-
   border-radius: 5px;
   cursor: pointer;
   outline: none;
@@ -74,13 +69,12 @@ body {
   margin-left: 5px;
 }
 
-/* 播放器 */
+/* Player */
 .player {
   display: block;
   width: 80vw;
   height: 80vh;
   margin: 30px auto;
-
   background-color: #ddd;
   border: none;
   overflow: hidden;
