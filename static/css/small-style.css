@@ -5,8 +5,9 @@ body {
 .nav {
   display: flex;
   justify-content: center;
-  height: 36px;
+  height: 20vw;
   margin-top: 50px;
+  width: 80vh;
 }
 
 /* 导航条-播放列表 */
@@ -76,22 +77,11 @@ body {
 /* 播放器 */
 .player {
   display: block;
-  width: 1000px;
-  height: 500px;
+  width: 80vh;
+  height: 80vw;
   margin: 30px auto;
 
   background-color: #ddd;
   border: none;
   overflow: hidden;
-}
-
-/* 友链 */
-.friendLink {
-  text-align: center;
-  color: #ddd;
-}
-.friendLink a {
-  margin-right: 5px;
-  
-  color: #ddd;
 }
