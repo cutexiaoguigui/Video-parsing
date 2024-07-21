@@ -1,14 +1,12 @@
 body {
-  font-size: 25px;
   transform: rotate(90deg);
 }
-
 /* 导航条 */
 .nav {
   display: flex;
   justify-content: center;
-  height: 74px;
-  margin-top: 5vh;
+  height: 36px;
+  margin-top: 50px;
 }
 
 /* 导航条-播放列表 */
@@ -17,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 150px;
+  width: 130px;
 
   background-color: #00ffff;
 }
@@ -35,18 +33,18 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 74px;
+  top: 36px;
 
   text-align: center;
   background-color: #00ffff;
 }
 
 .route .list li {
-  height: 40px;
+  height: 25px;
 
-  line-height: 40px;
+  line-height: 25px;
+  font-size: 15px;
   cursor: pointer;
-  font-size: 24px;
 }
 
 .route .list li:hover {
@@ -55,21 +53,20 @@ body {
 
 /* 导航条-输入框 */
 .nav .search {
-  width: 50%;
+  width: 666px;
   margin: 0 5px;
 
   outline: none;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 /* 导航条-按钮 */
 .nav button {
-  width: 10%;
+  width: 50px;
 
-  border-radius: 20px;
+  border-radius: 5px;
   cursor: pointer;
   outline: none;
-  font-size: 25px;
 }
 
 .nav .clear {
@@ -79,10 +76,10 @@ body {
 /* 播放器 */
 .player {
   display: block;
-  margin: 20px auto;
-  width: 94%;
-  height: 60vh;
-  
+  width: 1000px;
+  height: 500px;
+  margin: 30px auto;
+
   background-color: #ddd;
   border: none;
   overflow: hidden;
