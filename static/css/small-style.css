@@ -1,6 +1,7 @@
 /* Rotate the entire page 90 degrees (just for fun?) */
 body {
-  transform: rotate(90deg);
+  display: flex;
+  flex-direction: row; /* 设置主轴方向为横向 */
 }
 
 /* Navigation Bar */
@@ -12,20 +13,24 @@ body {
   margin-top: 10px;
   width: 80vh;
   background-color: #00ffff;
+  transform: rotate(90deg);
 }
 
 /* Playlist Route */
 .nav .route {
   position: relative;
   width: 130px;
+  transform: rotate(90deg);
 }
 
 .nav .route .title {
   cursor: pointer;
+  transform: rotate(90deg);
 }
 
 .nav .route:hover .list {
   display: block;
+  transform: rotate(90deg);
 }
 
 .route .list {
@@ -36,6 +41,7 @@ body {
   top: 36px;
   text-align: center;
   background-color: #00ffff;
+  transform: rotate(90deg);
 }
 
 .route .list li {
@@ -55,6 +61,7 @@ body {
   margin: 0 5px;
   outline: none;
   font-size: 16px;
+  transform: rotate(90deg);
 }
 
 /* Buttons */
@@ -63,6 +70,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   outline: none;
+  transform: rotate(90deg);
 }
 
 .nav .clear {
@@ -78,4 +86,5 @@ body {
   background-color: #ddd;
   border: none;
   overflow: hidden;
+  transform: rotate(90deg);
 }
