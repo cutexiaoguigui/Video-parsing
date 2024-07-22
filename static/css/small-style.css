@@ -1,4 +1,3 @@
-/* Rotate the entire page 90 degrees (just for fun?) */
 body {
   display: flex;
   flex-direction: row; /* 设置主轴方向为横向 */
@@ -53,6 +52,7 @@ body {
 
 .route .list li:hover {
   background-color: #ff0;
+  transform: rotate(90deg);
 }
 
 /* Search Input */
@@ -70,7 +70,6 @@ body {
   border-radius: 5px;
   cursor: pointer;
   outline: none;
-  transform: rotate(90deg);
 }
 
 .nav .clear {
@@ -80,7 +79,7 @@ body {
 /* Player */
 .player {
   display: block;
-  width: 75vw;
+  width: 700px;
   height: 80vh;
   margin: 30px auto;
   background-color: #ddd;
