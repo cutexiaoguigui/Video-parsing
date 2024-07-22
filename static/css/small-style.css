@@ -67,8 +67,8 @@
 /* Player */
 .player {
   display: block;
-  width: 85vw;
-  height: 35vh;
+  width: 85vh;
+  height: 35vw;
   margin: 15vw auto;
   background-color: #ddd;
   border: none;
