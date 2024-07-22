@@ -7,24 +7,20 @@
   margin-top: 10px;
   width: 80vh;
   background-color: #00ffff;
-  transform: rotate(90deg);
 }
 
 /* Playlist Route */
 .nav .route {
   position: relative;
-  width: 130px;
-  transform: rotate(90deg);
+  width: 15vw;
 }
 
 .nav .route .title {
   cursor: pointer;
-  transform: rotate(90deg);
 }
 
 .nav .route:hover .list {
   display: block;
-  transform: rotate(90deg);
 }
 
 .route .list {
@@ -35,11 +31,10 @@
   top: 36px;
   text-align: center;
   background-color: #00ffff;
-  transform: rotate(90deg);
 }
 
 .route .list li {
-  height: 25px;
+  height: 15vw;
   line-height: 25px;
   font-size: 15px;
   cursor: pointer;
@@ -47,21 +42,19 @@
 
 .route .list li:hover {
   background-color: #ff0;
-  transform: rotate(90deg);
 }
 
 /* Search Input */
 .nav .search {
-  width: 666px;
+  width: 60vw;
   margin: 0 5px;
   outline: none;
   font-size: 16px;
-  transform: rotate(90deg);
 }
 
 /* Buttons */
 .nav button {
-  width: 50px;
+  width: 10vw;
   border-radius: 5px;
   cursor: pointer;
   outline: none;
@@ -74,11 +67,10 @@
 /* Player */
 .player {
   display: block;
-  width: 350px;
-  height: 700px;
+  width: 80vw;
+  height: 35vh;
   margin: 30px auto;
   background-color: #ddd;
   border: none;
   overflow: hidden;
-  transform: rotate(90deg);
 }
