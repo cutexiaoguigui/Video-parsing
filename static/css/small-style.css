@@ -80,7 +80,7 @@ body {
 /* Player */
 .player {
   display: block;
-  width: 80vw;
+  width: 75vw;
   height: 80vh;
   margin: 30px auto;
   background-color: #ddd;
