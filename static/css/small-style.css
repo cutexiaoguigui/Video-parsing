@@ -79,8 +79,8 @@ body {
 /* Player */
 .player {
   display: block;
-  width: 700px;
-  height: 80vh;
+  width: 350px;
+  height: 700px;
   margin: 30px auto;
   background-color: #ddd;
   border: none;
